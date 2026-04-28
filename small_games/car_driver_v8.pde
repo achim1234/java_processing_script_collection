@@ -9,7 +9,7 @@ ArrayList<TrafficLight> lights = new ArrayList<TrafficLight>();
 
 boolean upPressed, downPressed, leftPressed, rightPressed;
 
-int lives = 3;
+int lives = 15;
 int score = 0;
 boolean gameOver = false;
 
