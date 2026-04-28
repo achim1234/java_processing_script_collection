@@ -202,7 +202,7 @@ class Car {
     translate(x, y);
     rotate(angle);
 
-    fill(50, 120, 255);
+    fill(0, 0, 0);
     rect(0, 0, 42, 22, 5);
 
     fill(30, 90, 200);
@@ -264,8 +264,22 @@ class AICar {
     pushMatrix();
     translate(x, y);
     rotate(angle);
+
     fill(200, 60, 60);
-    rect(0, 0, 40, 20, 5);
+    rect(0, 0, 42, 22, 5);
+
+    fill(30, 90, 200);
+    rect(-5, 0, 20, 14, 4);
+
+    fill(200);
+    rect(10, 0, 10, 10);
+
+    fill(20);
+    rect(-15, -12, 8, 4);
+    rect(15, -12, 8, 4);
+    rect(-15, 12, 8, 4);
+    rect(15, 12, 8, 4);
+
     popMatrix();
   }
 }
